@@ -1,0 +1,92 @@
+body {
+    font-family:'Segoe UI', sans-serif; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: rgb(127, 85, 57);
+    background-color:rgb(237, 224, 212);
+}
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 70px;  
+}
+
+.logo {
+    width: 67px;
+    cursor: pointer;
+    
+    
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 90px;
+}
+.navbar ul li a {
+    color: rgb(127, 85, 57);
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: rgb(223, 96, 11);;
+    transition: .3s;
+}
+
+h1 {
+    font-size: 50px;
+}
+button {
+    width: 180px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: rgb(127, 85, 57);
+    background: transparent;
+    color: rgb(185, 136, 90);
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+span {
+    background: rgb(127, 85, 57);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+    text-shadow: transparent;  
+}
+button:hover span {
+    width: 100%;
+    border: none;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family:'Comic Sans MS'; 
+    text-align: center;
+    background-color: rgb(127, 85, 57);
+    font-family: monospace;
+    margin-top: 50px;
+    
+}
+.hf {
+    text-align: left;
+    padding-left: 30px;
+}
+.tbf {
+    text-align: left;
+    padding-left: 30px;
+}
+
